@@ -1,0 +1,25 @@
+{
+  "name": "claude-desktop-zh-cn-localizer",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "A Windows-focused Chinese localization patch builder for Claude Desktop / Claude Code Cowork UI.",
+  "scripts": {
+    "build": "node scripts/build-claude-zh-cn.mjs",
+    "check": "node --check scripts/build-claude-zh-cn.mjs"
+  },
+  "keywords": [
+    "claude",
+    "localization",
+    "zh-cn",
+    "windows",
+    "desktop"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@electron/asar": "^4.2.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

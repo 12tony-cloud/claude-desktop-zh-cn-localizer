@@ -1,0 +1,39 @@
+node_modules/
+dist/
+.work/
+translation-cache.json
+start-claude-zh-CN.cmd
+
+# Claude / Electron app binaries and local runtime state
+Claude-zh-CN-app*/
+Claude.exe
+app.asar
+app.asar.unpacked/
+*.asar
+*.vhdx
+*.log
+*.jsonl
+Crashpad/
+Cache/
+Code Cache/
+GPUCache/
+IndexedDB/
+Local Storage/
+Session Storage/
+Network/
+
+# Local screenshots and temporary artifacts
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.zip
+*.tgz
+
+# Secrets and local config
+.env
+.env.*
+settings.json
+*.key
+*.pem
