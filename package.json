@@ -6,7 +6,9 @@
   "description": "A Windows-focused Chinese localization patch builder for Claude Desktop / Claude Code Cowork UI.",
   "scripts": {
     "build": "node scripts/build-claude-zh-cn.mjs",
-    "check": "node --check scripts/build-claude-zh-cn.mjs"
+    "check": "node --check scripts/build-claude-zh-cn.mjs && node --check mimo-anthropic-bridge.cjs",
+    "check:build": "node --check scripts/build-claude-zh-cn.mjs",
+    "check:bridge": "node --check mimo-anthropic-bridge.cjs"
   },
   "keywords": [
     "claude",
